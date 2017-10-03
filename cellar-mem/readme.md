@@ -13,19 +13,7 @@ Dockerfile created by [Germán Moltó](http://www.grycap.upv.es/gmolto) for the 
 ### Usage
 
 ```sh
-docker run -d -p 80:80 --name backbone-cellar-mem cursocloudaws/backbone-cellar-mem
+docker run -d -P --name cellar-mem gmolto/cellar-mem
 ```
+
 The application will be exposed at port 80 in the Docker Host: http://Docker_Host_IP
-
-You can let Docker decide a free port in the Docker Host:
-
-```sh
-docker run -d -P --name backbone-cellar-mem cursocloudaws/backbone-cellar-mem
-```
-Use the following command to find out the used port:
-
-```sh
-docker port backbone-cellar-mem 80
-0.0.0.0:32776
-```
-The application will be exposed at: http://Docker_Host_IP:32776
