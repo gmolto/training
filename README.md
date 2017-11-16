@@ -4,7 +4,7 @@
 
 ### SCAR
 
-* Is a framework to **execute containers out of Docker images in AWS Lambda**, in order to run generic applications and code in virtually any programming language on AWS Lambda.
+* Is a framework to execute containers out of Docker images in AWS Lambda, in order to run generic applications and code in virtually any programming language on AWS Lambda.
 
 * Is probably the easiest, most convenient approach to run applications packaged as Docker images, stored in Docker Hub, on AWS Lambda, as well as code in your favourite programming language, not only in those languages supported by AWS Lambda.
 
@@ -26,7 +26,7 @@ s
 
 ## Use Cases
 
-Different applications have been used in AWS Lambda via SCAR (see [examples](https://github.com/grycap/scar/tree/master/examples/) for ImageMagick, FFmpeg and AWS CLI, as well as deep learning frameworks such as Theano and Darknet) and code in virtually any programming language (see examples for R, Erlang and Elixir) on AWS Lambda.)
+Different applications have been used in AWS Lambda via SCAR (see [examples](https://github.com/grycap/scar/tree/master/examples/README.md) for ImageMagick, FFmpeg and AWS CLI, as well as deep learning frameworks such as Theano and Darknet) and code in virtually any programming language (see examples for R, Erlang and Elixir) on AWS Lambda.)
 
 ## License
 
