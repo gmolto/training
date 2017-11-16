@@ -34,7 +34,7 @@ sbx_user1061
 
 That is the basics, but SCAR goes way beyond. It supports a High Throughput Computing Programming Model to create highly-parallel event-driven serverless applications that execute on customized runtime environments. See the [documentation](https://github.com/grycap/scar).
 
-## Limitations
+### Limitations
 
 * The Docker container must fit within the 512 MB ephemeral storage provided by AWS Lambda.
 * Alpine-based Linux images cannot be currently employed.
