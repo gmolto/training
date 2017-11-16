@@ -19,7 +19,7 @@
 
 ### SCAR in a nutshell
 
-Create a Lambda function to execute a container out of the [ubuntu:16.04](https://hub.docker.com/r/library/ubuntu/tags/16.04/) Docker image in Docker Hub.
+Create a Lambda function to execute a container out of the [ubuntu:16.04](https://hub.docker.com/r/library/ubuntu/tags/16.04/) Docker image in Docker Hub:
 
 ```sh
 scar init ubuntu:16.04
